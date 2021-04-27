@@ -1,0 +1,65 @@
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e0c0ee;
+}
+
+tbody tr:nth-child(even).quest[data-finished='true'] {
+  background-color: #d8f9cf;
+}
+
+tbody tr:nth-child(odd).quest[data-finished='true'] {
+  background-color: #c0f3bc;
+}
+
+tbody tr:nth-child(even).upgrade .upgradeLevel[data-finished='true'] {
+  background-color: #d8f9cf;
+}
+
+tbody tr:nth-child(odd).upgrade .upgradeLevel[data-finished='true'] {
+  background-color: #c0f3bc;
+}
+
+/* ARCANE NAV STUFF BELOW */
+/* make it work */
+input.nav + label {
+  display: inline-block ;
+}
+
+input.nav ~ .tab {
+  display: none;
+}
+
+#itemsNav:checked ~ .tab.items,
+#questsNav:checked ~ .tab.quests,
+#upgradesNav:checked ~ .tab.upgrades {
+  display: block;
+}
+
+/* make it pretty */
+input.nav {
+  position: fixed;
+  opacity: 0;
+}
+
+input.nav + label {
+  border: 1px solid #999;
+  background : #EEE;
+  padding: 4px 12px;
+  border-radius: 4px 4px 0 0;
+  position relative;
+  top: 1px;
+}
+
+input.nav:checked + label {
+  background: #FFF;
+  border-bottom: 1px solid transparent;
+}
+
+input.nav ~.tab {
+  border-top: 1px solid #999;
+  padding: 12px;
+}
+

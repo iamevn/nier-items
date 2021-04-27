@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Quest/Upgrade Items in Nier Replicant</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="description" content="Tool to track what items you need for quests and upgrades in Nier Replicant.">
+  <meta property="og:title" content="Quest/Upgrade Items in Nier Replicant">
+  <meta property="og:description" content="Tool to track what items you need for quests and upgrades in Nier Replicant.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+</head>
+
+<body>
+  <script type="module" src="main.js"></script>
+
+  <input type="radio" name="tabs" class="nav" id="itemsNav" checked>
+  <label for="itemsNav">Important Items</label>
+  <input type="radio" name="tabs" class="nav" id="questsNav" checked>
+  <label for="questsNav">Quest List</label>
+  <input type="radio" name="tabs" class="nav" id="upgradesNav" checked>
+  <label for="upgradesNav">Weapon Upgrades</label>
+
+  <table class="items tab">
+    <thead>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <table class="quests tab">
+    <thead>
+      <tr>
+        <td>Quest</td>
+        <td>Required Materials</td>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <table class="upgrades tab">
+    <thead>
+      <tr>
+        <td>Weapon</td>
+        <td>Level 2 Materials</td>
+        <td>Level 3 Materials</td>
+        <td>Level 4 Materials</td>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</body>
+</html>
