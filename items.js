@@ -301,7 +301,7 @@ export const quests = [
     'part': 2,
     'mats': [
       {'name': 'Log', 'count': 5},
-      {'name': 'Dented Metal', 'count': 20},
+      {'name': 'Dented Metal Board', 'count': 20},
       {'name': 'Stripped Bolt', 'count': 10},
     ],
   },
