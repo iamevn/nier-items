@@ -520,7 +520,7 @@ export const upgrades = [
       ],
       4: [
         {'name': 'Titanium Alloy', 'count': 2},
-        {'name': 'Forlorm Necklace', 'count': 2},
+        {'name': 'Forlorn Necklace', 'count': 2},
         {'name': 'Pyrite', 'count': 1},
       ],
     },
@@ -789,7 +789,7 @@ export const upgrades = [
       3: [
         {'name': 'Iron Ore', 'count': 18},
         {'name': 'Broken Battery', 'count': 4},
-        {'name': 'Forlom Necklace', 'count': 1},
+        {'name': 'Forlorn Necklace', 'count': 1},
       ],
       4: [
         {'name': 'Iron Ore', 'count': 20},
@@ -914,13 +914,13 @@ export const upgrades = [
     'name': 'Labyrinth\'s Song',
     'tiers': {
       2: [
-        {'name': 'Flourite', 'count': 1},
+        {'name': 'Fluorite', 'count': 1},
       ],
       3: [
-        {'name': 'Flourite', 'count': 2},
+        {'name': 'Fluorite', 'count': 2},
       ],
       4: [
-        {'name': 'Flourite', 'count': 3},
+        {'name': 'Fluorite', 'count': 3},
       ],
     },
   },
@@ -1145,7 +1145,7 @@ export const upgrades = [
       3: [
         {'name': 'Iron Ore', 'count': 18},
         {'name': 'Broken Battery', 'count': 4},
-        {'name': 'Forlom Necklace', 'count': 1},
+        {'name': 'Forlorn Necklace', 'count': 1},
       ],
       4: [
         {'name': 'Iron Ore', 'count': 20},
