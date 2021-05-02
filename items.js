@@ -467,7 +467,20 @@ save the first two into registers n and m respectively, third is the macro
 
 s/^<td .*center.*>\(.*\)<\/td>$/  {\r    'name': '\1',\r    'tiers': {
 s/<li>\(.*\) x\(.*\)<\/li>/        {'name': '\1', 'count': \2},
-V/<\/tr>:n?<tr>V/<\/tr>:m?<tr>dd/<tdVjc2: [/\/ulVjc],/tdVjc3: [/\/ulVjc],jVjc4: [/\/ulVjc],jV/<\/tr>c},},j0
+V/<\/tr>
+:n
+?<tr>
+V/<\/tr>
+:m
+?<tr>
+dd/<td
+Vjc2: [/\/ul
+Vjc],/td
+Vjc3: [/\/ul
+Vjc],jVjc4: [/\/ul
+Vjc],jV/<\/tr>
+c},
+},j0
 */
 export const upgrades = [
   {
@@ -597,7 +610,7 @@ export const upgrades = [
       4: [
         {'name': 'Iron Ore', 'count': 10},
         {'name': 'Clay', 'count': 15},
-        {'name': 'Broken Amber', 'count': 1},
+        {'name': 'Amber', 'count': 1},
       ],
     },
   },
