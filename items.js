@@ -526,7 +526,7 @@ export const upgrades = [
       3: [
         {'name': 'Titanium Alloy', 'count': 1},
         {'name': 'Broken Arm', 'count': 3},
-        {'name': 'Gold Ore', 'count': 3},
+        {'name': 'Gold Ore', 'count': 2},
       ],
       4: [
         {'name': 'Titanium Alloy', 'count': 1},
@@ -605,7 +605,7 @@ export const upgrades = [
         {'name': 'Rusted Clump', 'count': 1},
       ],
       4: [
-        {'name': 'Copper Ore', 'count': 15},
+        {'name': 'Copper Ore', 'count': 20},
         {'name': 'Pyrite', 'count': 1},
         {'name': 'Rusted Clump', 'count': 1},
       ],
@@ -797,7 +797,7 @@ export const upgrades = [
       ],
       3: [
         {'name': 'Copper Ore', 'count': 15},
-        {'name': 'Rusty Kitchen Knife', 'count': 5},
+        {'name': 'Rusty Kitchen Knife', 'count': 3},
         {'name': 'Subdued Bracelet', 'count': 1},
       ],
       4: [
