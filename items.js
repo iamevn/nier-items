@@ -588,7 +588,7 @@ export const upgrades = [
       4: [
         {'name': 'Iron Ore', 'count': 10},
         {'name': 'Clay', 'count': 15},
-        {'name': 'Broken Amber', 'count': 1},
+        {'name': 'Amber', 'count': 1},
       ],
     },
   },
