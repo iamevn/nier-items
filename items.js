@@ -460,15 +460,6 @@ export const quests = [
   },
 ];
 
-/*
-vim macro to process tables from https://samurai-gamers.com/nier-replicant-remaster-ver-122474487139/weapon-upgrade-requirements/
-
-save the first two into registers n and m respectively, third is the macro
-
-s/^<td .*center.*>\(.*\)<\/td>$/  {\r    'name': '\1',\r    'tiers': {
-s/<li>\(.*\) x\(.*\)<\/li>/        {'name': '\1', 'count': \2},
-V/<\/tr>:n?<tr>V/<\/tr>:m?<tr>dd/<tdVjc2: [/\/ulVjc],/tdVjc3: [/\/ulVjc],jVjc4: [/\/ulVjc],jV/<\/tr>c},},j0
-*/
 export const upgrades = [
   {
     'name': 'Iron Pipe',
